@@ -1,0 +1,88 @@
+hash: 2d9ca1adbb5f031c92787bb95dd47b89dd21eb84b53081f3e6b207cc2baa57cd
+updated: 2018-10-10T10:45:12.846193+07:00
+imports:
+- name: github.com/buger/jsonparser
+  version: 6acdf747ae99cad92d1e8134606008acaca71844
+- name: github.com/go-stack/stack
+  version: 2fee6af1a9795aafbe0253a0cfbdf668e1fb8a9a
+- name: github.com/golang/snappy
+  version: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
+- name: github.com/mongodb/mongo-go-driver
+  version: 71de844febff6ac5b6fc6ba165e24e9677d2ee05
+  subpackages:
+  - bson
+  - bson/bsoncodec
+  - bson/builder
+  - bson/decimal
+  - bson/elements
+  - bson/internal/llbson
+  - bson/objectid
+  - bson/parser
+  - bson/parser/ast
+  - core/address
+  - core/auth
+  - core/auth/internal/gssapi
+  - core/command
+  - core/compressor
+  - core/connection
+  - core/connstring
+  - core/description
+  - core/dispatch
+  - core/event
+  - core/option
+  - core/readconcern
+  - core/readpref
+  - core/result
+  - core/session
+  - core/tag
+  - core/topology
+  - core/uuid
+  - core/version
+  - core/wiremessage
+  - core/writeconcern
+  - internal
+  - mongo
+  - mongo/aggregateopt
+  - mongo/changestreamopt
+  - mongo/clientopt
+  - mongo/collectionopt
+  - mongo/countopt
+  - mongo/dbopt
+  - mongo/deleteopt
+  - mongo/distinctopt
+  - mongo/dropcollopt
+  - mongo/findopt
+  - mongo/indexopt
+  - mongo/insertopt
+  - mongo/listcollectionopt
+  - mongo/listdbopt
+  - mongo/mongoopt
+  - mongo/replaceopt
+  - mongo/runcmdopt
+  - mongo/sessionopt
+  - mongo/transactionopt
+  - mongo/updateopt
+- name: github.com/xdg/scram
+  version: 7eeb5667e42c09cb51bf7b7c28aea8c56767da90
+- name: github.com/xdg/stringprep
+  version: 73f8eece6fdcd902c185bf651de50f3828bed5ed
+- name: golang.org/x/crypto
+  version: 49796115aa4b964c318aad4f3084fdb41e9aa067
+  subpackages:
+  - pbkdf2
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - context
+- name: golang.org/x/sync
+  version: 1d60e4601c6fd243af51cc01ddf169918a5407ca
+  subpackages:
+  - semaphore
+- name: golang.org/x/text
+  version: b19bf474d317b857955b12035d2c5acb57ce8b01
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/mgo.v2
+  version: 9856a29383ce1c59f308dd1cf0363a79b5bef6b5
+testImports: []

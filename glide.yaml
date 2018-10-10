@@ -1,0 +1,7 @@
+package: playground
+import:
+- package: github.com/mongodb/mongo-go-driver
+  version: ~0.0.15
+  subpackages:
+  - mongo
+- package: gopkg.in/mgo.v2
